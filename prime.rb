@@ -1,4 +1,4 @@
-def prime(number)
+def prime?(number)
  x =  Math.sqrt(number).floor
  number_array = *(2..x)
  
