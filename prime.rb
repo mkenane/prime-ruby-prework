@@ -1,8 +1,8 @@
 def prime?(number)
   
-  if number.abs == (1 || 2) 
+ if number.abs == 1
     return false 
-  elsif number.abs == 3
+  elsif number.abs == (3 || 2)
   return true 
   end 
   
