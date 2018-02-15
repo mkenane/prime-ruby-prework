@@ -8,7 +8,7 @@ def prime?(number)
   
   
  x =  Math.sqrt(number.abs).floor
- number_array = *(4..x)
+ number_array = *(2..x)
  
  number_array.each do |int|
  if number % int == 0
