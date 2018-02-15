@@ -1,10 +1,12 @@
 def prime?(number)
   
- if number.abs == (1 || 0 )
+ if (number.abs == 1 || number.abs == 0)
+    puts "#{number}"
     return false 
-  elsif number.abs == (3 || 2)
+  elsif (number.abs == 2 || number.abs == 3)
   return true 
   end 
+  
   
   
  x =  Math.sqrt(number.abs).floor
