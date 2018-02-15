@@ -1,6 +1,6 @@
 def prime?(number)
   
-  if number.abs == 1 || 2 || 3
+  if number.abs == 1 || 2 
     return false 
   end 
   
